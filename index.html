@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina con Header</title>
+    <!-- Bootstrap Italia CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-italia/dist/css/bootstrap-italia.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <section class="cookiebar fade" aria-label="Gestione dei cookies">
+        <p>Questo sito utilizza cookie tecnici, analytics e di terze parti. <br />Proseguendo nella navigazione accetti l’utilizzo dei cookie.</p>
+        <div class="cookiebar-buttons">
+            <a href="#" class="cookiebar-btn">Preferenze<span class="visually-hidden">cookies</span></a>
+            <button data-bs-accept="cookiebar" class="cookiebar-btn cookiebar-confirm">Accetto<span class="visually-hidden"> i cookies</span></button>
+        </div>
+    </section>
+
+    <!-- Header -->
+    <div class="it-header-slim-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="it-header-slim-wrapper-content">
+                        <a class="d-lg-block navbar-brand" href="#">mail : gabriel.jones@mail.urp.gjdev.it / interno : 66-8</a>
+                        <div class="it-header-slim-right-zone">
+                            <div class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                <div class="dropdown-menu">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="link-list-wrapper"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="profile.html" class="btn btn-primary btn-icon btn-full">
+                                <use href="assents/me.jpeg"></use>
+                                <span class="d-none d-lg-block">profile</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenuto diviso in 4 quadranti -->
+    <div class="container-fluid">
+        <div class="row full-height">
+            <div class="col-12 col-md-6 quadrant">
+                <div>
+                    <h2>Documenti</h2>
+                    <iframe src="documenti/index.html" title="Documenti"></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 quadrant">
+                <div>
+                    <h2>Informazioni utente</h2>
+                    <iframe src="profile/index.html?username=gabriel.jones" title="Informazioni Gestionale e utente"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row full-height">
+            <div class="col-12 col-md-6 quadrant">
+                <div>
+                    <h2>Siti web</h2>
+                    <p>Testo della sezione 3</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 quadrant">
+                <div>
+                    <h2>Comune e parrocchia</h2>
+                    <p>Testo della sezione 4</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Italia JS -->
+    <script src="script.js"></script></body>
+</html>

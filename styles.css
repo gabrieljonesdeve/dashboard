@@ -1,0 +1,60 @@
+
+        /* Stile per lo sfondo blu scuro */
+        body {
+            background-color: #003366; /* Blu scuro */
+            color: #ffffff; /* Testo bianco per contrasto */
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Altezza totale della finestra */
+        }
+
+        .it-header-slim-wrapper {
+            background-color: #002244; /* Colore leggermente più chiaro per l'header */
+        }
+
+        .row.full-height {
+            height: 50vh; /* Altezza di metà pagina */
+        }
+
+        .quadrant {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%; /* Riempie l'intera altezza della riga */
+            padding: 0;
+        }
+
+        .quadrant h2,
+        .quadrant p {
+            margin: 0;
+            text-align: center;
+        }
+
+        .quadrant iframe {
+            width: 100%; /* Larghezza 100% del container */
+            height: 30vh; /* Altezza aumentata */
+            border: none; /* Rimuove i bordi */
+        }
+
+        .mt-0 {
+            margin-top: 0 !important;
+        }
+        
+        .ms-1 {
+            margin-left: ($spacer * 0.25) !important;
+        }
+        
+        .px-2 {
+            padding-left: ($spacer * 0.5) !important;
+            padding-right: ($spacer * 0.5) !important;
+        }
+        
+        .p-3 {
+            padding: $spacer !important;
+        }
+
+        .center-element {
+            display: flex;
+            justify-content: center;
+            height: 10vh; /* Questa altezza è solo un esempio */
+        }
